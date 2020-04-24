@@ -2,6 +2,7 @@ import UIKit
 
 private let lineWidth: CGFloat = 2
 
+// オセロのボードを表示するためのViewクラス
 public class BoardView: UIView {
     private var cellViews: [CellView] = []
     private var actions: [CellSelectionAction] = []

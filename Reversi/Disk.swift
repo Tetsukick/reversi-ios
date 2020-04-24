@@ -1,3 +1,4 @@
+// 黒か白を表すenum
 public enum Disk {
     case dark
     case light
